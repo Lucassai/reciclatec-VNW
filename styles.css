@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  padding: 16px 8px;
+  font-family: "poppins";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+}
+
+.logo img {
+  width: 36px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  font-weight: bold;
+  font-size: 32px;
+  align-items: center;
+}
+
+.header-btns {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.header-btns ul {
+  display: flex;
+}
+
+.header-btns ul li {
+  list-style: none;
+  padding: 10px 30px;
+}
+
+.header-btns a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}
+
+.header-btns a:hover {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: #16a34a;
+  border: solid 1px #16a34a;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
+.btn-primary a {
+  color: white;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #21c05c;
+  color: black;
+  border: solid 1px #21c05c;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.line {
+  width: 95%;
+  height: 1px;
+  background: #ddd;
+  margin-top: 0.75rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#first-section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#first-section h1 {
+  font-size: 100px;
+  font-weight: 700;
+  font-style: bold;
+  width: 95%;
+  line-height: 120%;
+  margin: 30px 50px;
+}
+
+#first-section h4 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  width: 100%;
+  color: #4b5563;
+}
+
+#first-section img {
+  width: 450px;
+}
+
+#first-section h4 {
+  margin: 30px 50px;
+  font-size: 33px;
+  line-height: 120%;
+}
+
+#first-section .btn-primary {
+  margin: 30px 50px;
+  padding: 15px 40px;
+}
+
+#first-section .btn-primary a {
+  display: flex;
+  font-size: 22px;
+}
+
+#first-section .btn-primary img {
+  margin-left: 10px;
+  width: 24px;
+  color: white;
+}
+
+#first-section .btn-secundary {
+  background-color: white;
+  border: solid 1px #2563eb;
+  border-radius: 6px;
+  padding: 15px 40px;
+  font-size: 18px;
+  margin: 0px 0px;
+}
+
+#first-section .btn-secundary a {
+  color: #2563eb;
+  font-weight: 600;
+  display: flex;
+  font-size: 22px;
+}
+
+#first-section .btn-secundary img {
+  margin-left: 10px;
+  width: 24px;
+}
+
+#first-section .btn-secundary:hover {
+  background-color: #3b82f6;
+  color: white;
+  border: solid 1px #87b5ff;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+#second-section {
+  background-color: #f3f5f8;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#second-section ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#second-section ul li {
+  text-align: center;
+  padding: 20px 30px;
+}
+
+#second-section ul {
+  padding: 15px 0px;
+}
+
+#second-section ul li h1 {
+  font-size: 60px;
+  color: #16a34a;
+  font-family: "poppins";
+  font-weight: 700;
+  font-style: bold;
+  margin: 20px 0px;
+}/*# sourceMappingURL=styles.css.map */
