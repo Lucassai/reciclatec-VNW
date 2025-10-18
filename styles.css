@@ -188,4 +188,88 @@ header {
   font-weight: 700;
   font-style: bold;
   margin: 20px 0px;
+}
+
+#third-section {
+  margin: 100px 50px;
+}
+
+#third-section .como-funciona h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-style: bold;
+  margin-bottom: 35px;
+}
+
+#third-section .como-funciona p {
+  font-size: 24px;
+  color: #4b5563;
+  margin-bottom: 70px;
+}
+
+#third-section .passos {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+#third-section .passos .passo {
+  background-color: #f3f5f8;
+  border-radius: 8px;
+  padding: 30px 20px;
+  width: 45%;
+}
+
+.green {
+  color: #16a34a;
+}
+
+#third-section .titulo {
+  display: flex;
+  font-family: "Inter";
+  margin: 10px 30px;
+  align-items: center;
+}
+
+#third-section .titulo h3 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: 15px;
+}
+
+#third-section p {
+  font-size: 20px;
+  line-height: 150%;
+  margin: 20px 30px;
+  color: #4b5563;
+}
+
+#third-section .passos .passo ul li {
+  display: flex;
+}
+
+#third-section .passos .passo ul li .numeros {
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.background-green {
+  background-color: #16a34a;
+}
+
+.background-blue {
+  background-color: #2563eb;
+}
+
+#third-section .passos .passo ul li .textos p {
+  font-size: 18px;
+  margin: 15px 0px;
 }/*# sourceMappingURL=styles.css.map */
