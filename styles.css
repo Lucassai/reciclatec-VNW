@@ -80,13 +80,21 @@ header {
   margin-right: auto;
 }
 
-#first-section {
+#presentation {
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
 }
 
-#first-section h1 {
+#presentation .textos {
+  width: 66%;
+}
+
+#presentation .imagem-mascote {
+  width: 33%;
+}
+
+#presentation h1 {
   font-size: 100px;
   font-weight: 700;
   font-style: bold;
@@ -95,7 +103,7 @@ header {
   margin: 30px 50px;
 }
 
-#first-section h4 {
+#presentation h4 {
   font-family: "Inter";
   font-weight: 400;
   font-size: 20px;
@@ -104,33 +112,33 @@ header {
   color: #4b5563;
 }
 
-#first-section img {
-  width: 450px;
+#presentation img {
+  width: 100%;
 }
 
-#first-section h4 {
+#presentation h4 {
   margin: 30px 50px;
   font-size: 33px;
   line-height: 120%;
 }
 
-#first-section .btn-primary {
+#presentation .btn-primary {
   margin: 30px 50px;
   padding: 15px 40px;
 }
 
-#first-section .btn-primary a {
+#presentation .btn-primary a {
   display: flex;
   font-size: 22px;
 }
 
-#first-section .btn-primary img {
+#presentation .btn-primary img {
   margin-left: 10px;
   width: 24px;
   color: white;
 }
 
-#first-section .btn-secundary {
+#presentation .btn-secundary {
   background-color: white;
   border: solid 1px #2563eb;
   border-radius: 6px;
@@ -139,19 +147,19 @@ header {
   margin: 0px 0px;
 }
 
-#first-section .btn-secundary a {
+#presentation .btn-secundary a {
   color: #2563eb;
   font-weight: 600;
   display: flex;
   font-size: 22px;
 }
 
-#first-section .btn-secundary img {
+#presentation .btn-secundary img {
   margin-left: 10px;
   width: 24px;
 }
 
-#first-section .btn-secundary:hover {
+#presentation .btn-secundary:hover {
   background-color: #3b82f6;
   color: white;
   border: solid 1px #87b5ff;
@@ -159,29 +167,29 @@ header {
   text-decoration: none;
 }
 
-#second-section {
+#estatisticas {
   background-color: #f3f5f8;
   margin-top: 100px;
   display: flex;
   justify-content: space-around;
 }
 
-#second-section ul {
+#estatisticas ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-#second-section ul li {
+#estatisticas ul li {
   text-align: center;
   padding: 20px 30px;
 }
 
-#second-section ul {
+#estatisticas ul {
   padding: 15px 0px;
 }
 
-#second-section ul li h1 {
+#estatisticas ul li h1 {
   font-size: 60px;
   color: #16a34a;
   font-family: "poppins";
@@ -190,30 +198,30 @@ header {
   margin: 20px 0px;
 }
 
-#third-section {
+#como-funciona {
   margin: 100px 50px;
 }
 
-#third-section .como-funciona h2 {
+.titulo-padrao h2 {
   font-size: 48px;
   font-weight: 700;
   font-style: bold;
   margin-bottom: 35px;
 }
 
-#third-section .como-funciona p {
+.titulo-padrao p {
   font-size: 24px;
   color: #4b5563;
   margin-bottom: 70px;
 }
 
-#third-section .passos {
+#como-funciona .passos {
   display: flex;
   justify-content: space-around;
   margin-bottom: 100px;
 }
 
-#third-section .passos .passo {
+#como-funciona .passos .passo {
   background-color: #f3f5f8;
   border-radius: 8px;
   padding: 30px 20px;
@@ -224,32 +232,32 @@ header {
   color: #16a34a;
 }
 
-#third-section .titulo {
+#como-funciona .titulo {
   display: flex;
   font-family: "Inter";
   margin: 10px 30px;
   align-items: center;
 }
 
-#third-section .titulo h3 {
+#como-funciona .titulo h3 {
   font-size: 25px;
   font-weight: 400;
   line-height: 150%;
   margin-left: 15px;
 }
 
-#third-section p {
+#como-funciona p {
   font-size: 20px;
   line-height: 150%;
   margin: 20px 30px;
   color: #4b5563;
 }
 
-#third-section .passos .passo ul li {
+#como-funciona .passos .passo ul li {
   display: flex;
 }
 
-#third-section .passos .passo ul li .numeros {
+#como-funciona .passos .passo ul li .numeros {
   color: white;
   font-weight: bold;
   border-radius: 50%;
@@ -269,7 +277,142 @@ header {
   background-color: #2563eb;
 }
 
-#third-section .passos .passo ul li .textos p {
+#como-funciona .passos .passo ul li .textos p {
   font-size: 18px;
   margin: 15px 0px;
+}
+
+#disponiveis {
+  background-color: #f3f5f8;
+}
+
+#avaliacoes {
+  margin: 100px 0px;
+}
+
+.box-disponiveis {
+  margin: 100px 50px;
+  padding: 50px 0px;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.produto {
+  background-color: white;
+  width: 22%;
+  border-radius: 8px;
+  border: solid 2px #16a34a;
+}
+
+.produto img {
+  width: 100%;
+}
+
+.produto h3 {
+  font-size: 24px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.produto p {
+  font-size: 18px;
+  color: #4b5563;
+  text-align: center;
+  margin: 0px 15px 20px 15px;
+}
+
+.produto button {
+  background-color: #16a34a;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo-secundario h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-style: bold;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.titulo-secundario p {
+  text-align: center;
+  font-size: 24px;
+  color: #4b5563;
+  margin-bottom: 70px;
+}
+
+.depoimentos {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.depoimento {
+  border: solid 1px #9ca3af;
+  border-left: 4px solid #9ca3af;
+  border-radius: 8px;
+  padding: 30px 20px;
+  width: 30%;
+  margin: 0px 35px;
+}
+
+.depoimento img {
+  padding: 15px;
+}
+
+.depoimento h3 {
+  font-size: 24px;
+  margin: 10px 0px;
+}
+
+.usuario {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+
+#fechamento {
+  background-color: #f3f5f8;
+  margin-top: 100px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.btn-fechar .btn-secundary {
+  background-color: white;
+  border: solid 1px #21c05c;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.btn-fechar .btn-secundary:hover {
+  background-color: white;
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn-fechar .btn-secundary a {
+  color: #21c05c;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
