@@ -514,4 +514,32 @@ footer p {
   #como-funciona .passos .passo ul li .textos p {
     font-size: 10px;
   }
+  #disponiveis .produtos {
+    flex-direction: column;
+    align-items: center;
+  }
+  #disponiveis .produtos .produto {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  #avaliacoes .depoimentos {
+    flex-direction: column;
+    align-items: center;
+  }
+  #avaliacoes .depoimentos .depoimento {
+    width: 80%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  footer .footer-lists {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer p {
+    font-size: medium;
+  }
+  footer .footer-list {
+    width: 100%;
+    margin: 20px 0px;
+  }
 }
